@@ -8,6 +8,10 @@
     "start": "NODE_ENV=production node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramki2486/easy-file-upload.git"
+  },
   "keywords": [
     "easy-file-upload",
     "easy file upload",
