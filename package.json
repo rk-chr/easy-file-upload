@@ -1,0 +1,22 @@
+{
+  "name": "easy-file-upload",
+  "version": "1.0.0",
+  "description": "easy file upload library sets with multer configuration which you need to send destination, form file name and type either single or multiple. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy",
+    "file",
+    "upload",
+    "multer",
+    "config",
+    "file",
+    "upload",
+    "file",
+    "multer"
+  ],
+  "author": "Rama Kishore (https://github.com/ramki2486)",
+  "license": "ISC"
+}
