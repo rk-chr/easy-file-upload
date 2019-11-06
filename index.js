@@ -1,7 +1,6 @@
 const multer = require('multer');
 
 module.exports = (dest, fileName, type) => {
-
     let arr = [];
 
     const storage = multer.diskStorage({
@@ -22,5 +21,4 @@ module.exports = (dest, fileName, type) => {
     } else {
         return multer().none();
     }
-
 }
