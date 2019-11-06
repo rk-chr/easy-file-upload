@@ -1,6 +1,6 @@
 const multer = require('multer');
 
-module.exports = (dest, fileName, type, name) => {
+module.exports = (dest, fileName, type) => {
 
     let arr = [];
 
@@ -9,7 +9,7 @@ module.exports = (dest, fileName, type, name) => {
             cb(null, dest);
         },
         filename: function (req, file, cb) {
-            arr.push((name || '') + new Date() + file.originalname);
+            arr.push(new Date().getTime() + file.originalname);
             req.paths = arr;
             cb(null, new Date() + file.originalname);
         }
