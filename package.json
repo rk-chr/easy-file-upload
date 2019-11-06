@@ -1,6 +1,6 @@
 {
   "name": "easy-file-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easy-file-upload is a node js middleware which is used multer library for uploading files easily with just one function for handling `multipart/form-data`.",
   "main": "index.js",
   "scripts": {
